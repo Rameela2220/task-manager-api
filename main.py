@@ -5,6 +5,11 @@ import models, database
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=database.engine)
+@app.get("/")
+def home():
+    return {"message": "Task Manager API is running 🚀"}
+
+models.Base.metadata.create_all(bind=database.engine)
 
 # DB
 def get_db():
