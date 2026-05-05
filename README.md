@@ -1,33 +1,38 @@
-# Task Manager API
+# Task Manager API 🚀
 
-This is a backend project built using FastAPI.
+A simple backend project built using FastAPI that supports user authentication and task management (CRUD operations).
 
-## Features
+---
+
+## 🌐 Live API
+👉 https://task-manager-api-jbhy.onrender.com
+
+## 📄 API Documentation (Swagger UI)
+👉 https://task-manager-api-jbhy.onrender.com/docs
+
+---
+
+## ✨ Features
 - User Registration
 - User Login
-- CRUD Operations (Create, Read, Update, Delete Tasks)
+- Create Task
+- Get All Tasks
+- Update Task
+- Delete Task
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 - Python
 - FastAPI
 - SQLAlchemy
 - SQLite
 
-## How to Run
+---
 
-1. Install dependencies:
-pip install -r requirements.txt
+## ⚙️ Run Locally
 
-2. Run server:
-uvicorn main:app --reload
-
-3. Open browser:
-http://127.0.0.1:8000/docs
-
-## API Endpoints
-- POST /register
-- POST /login
-- GET /tasks
-- POST /tasks
-- PUT /tasks/{id}
-- DELETE /tasks/{id}
+1. Clone the repository:
+```bash
+git clone https://github.com/Rameela2220/task-manager-api.git
+cd task-manager-api
